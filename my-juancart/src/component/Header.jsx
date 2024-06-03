@@ -1,6 +1,6 @@
 import React from 'react';
 import { Layout, Menu, theme } from 'antd';
-const { Header } = Layout;  
+const { Header } = Layout;
 
 const menuLabels = [
   'Home',
@@ -21,16 +21,16 @@ const AppHeader = () => {
 
   return (
     <Layout>
-      <Header className="flex items-center justify-between px-4 py-2">
+      <Header className="bg-slate-700 flex items-center justify-between px-4 py-2">
         <div className="flex items-center">
           <img src="src/assets/logocart.png" alt="Logo" className="h-8 mr-4" />
         </div>
         <Menu
-          theme="dark"
+          theme="white"
           mode="horizontal"
           defaultSelectedKeys={['1']}
           items={items}
-          className="flex-1"
+          className="flex-1 bg-slate-700 text-white"
           style={{ justifyContent: 'center' }}
         />
       </Header>
