@@ -1,6 +1,6 @@
 import React from "react";
-import { Breadcrumb, Layout, Menu, theme } from 'antd';
-const { Nav, Content, Footer } = Layout;
+import {Layout, Menu, theme } from 'antd';
+const { Nav} = Layout;
 
 const menuLabels = [
   'Home',
