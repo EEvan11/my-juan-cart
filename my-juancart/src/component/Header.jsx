@@ -23,7 +23,7 @@ const AppHeader = () => {
     <Layout>
       <Header className="bg-gray-800 flex items-center justify-between px-4 py-2">
         <div className="flex items-center">
-          <img src="/my-juancart/src/assets/logocart.png" alt="Logo" className="h-8 mr-4" />
+          <img src="src/assets/logocart.png" alt="Logo" className="h-8 mr-4" />
         </div>
         <Menu
           theme="dark"
