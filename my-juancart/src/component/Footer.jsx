@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return <div>
-    <div class="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 absolute bottom-0">
+    <div class="px-4 pt-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 absolute bottom-0 bg-slate-100">
       <div class="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
         <div class="sm:col-span-2">
           <a href="/" aria-label="Go home" title="Company" class="inline-flex items-center">
@@ -15,7 +15,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div class="space-y-2 text-sm">
+        <div class="space-y-2 text-sm mt-5">
           <p class="text-base font-bold tracking-wide text-gray-900">Contacts</p>
           <div class="flex">
             <p class="mr-1 text-gray-800">Phone:</p>
@@ -32,7 +32,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div>
+        <div className="mt-5">
           <span class="text-base font-bold tracking-wide text-gray-900">Social</span>
           <div class="flex items-center mt-1 space-x-3">
             <a href="/" class="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400">
@@ -65,7 +65,7 @@ const Footer = () => {
       </div>
       <div class="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
         <p class="text-sm text-gray-600">
-          © Copyright 2020 Lorem Inc. All rights reserved.
+          © Copyright 2024 password123. All rights reserved.
         </p>
         <ul class="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
           <li>
