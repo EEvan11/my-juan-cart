@@ -1,7 +1,12 @@
 import React from "react";
+import TestPage from "./pages/TestPage";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <TestPage />
+    </div>
+  );
 };
 
 export default App;
