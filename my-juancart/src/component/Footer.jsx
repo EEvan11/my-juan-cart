@@ -2,11 +2,11 @@ import React from "react";
 
 const Footer = () => {
   return <div>
-    <div class="px-4 pt-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 absolute bottom-0 bg-slate-100">
+    <div class="px-4 pt-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 xl:max-w-full absolute bottom-0 bg-slate-100">
       <div class="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
         <div class="sm:col-span-2">
           <a href="/" aria-label="Go home" title="Company" class="inline-flex items-center">
-            <img src="../src/assets/logocart.png" alt="Logo" className="h-auto w-32" />
+            <img src="../src/assets/logocart.png" alt="Logo" className="h-auto w-32 relative" />
             <span class=" text-2xl font-bold tracking-wide text-gray-800">JuanCart</span>
           </a>
           <div class="mt-6 lg:max-w-sm">
