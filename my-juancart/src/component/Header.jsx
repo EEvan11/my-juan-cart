@@ -1,6 +1,6 @@
-import React from "react";
-import {Layout, Menu, theme } from 'antd';
-const { Nav} = Layout;
+import React from 'react';
+import { Layout, Menu, theme } from 'antd';
+const { Header, Content, Footer } = Layout;  // Import Header correctly
 
 const menuLabels = [
   'Home',
@@ -9,20 +9,19 @@ const menuLabels = [
   'Contact'
 ];
 
-
 const items = menuLabels.map((label, index) => ({
   key: index + 1,
   label: label,
 }));
 
-const Header = () => {
+const AppHeader = () => {
   const {
     token: { colorBgContainer, borderRadiusLG },
   } = theme.useToken();
 
   return (
     <Layout>
-      <Nav
+      <Header  // Use Header instead of Nav
         style={{
           display: 'flex',
           alignItems: 'center',
@@ -39,13 +38,9 @@ const Header = () => {
             minWidth: 0,
           }}
         />
-      </Nav>
+      </Header>
     </Layout>
   );
 };
 
-export default Header;
-
-
-
-
+export default AppHeader;
