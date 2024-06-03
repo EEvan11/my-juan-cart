@@ -6,20 +6,12 @@ const Footer = () => {
       <div class="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
         <div class="sm:col-span-2">
           <a href="/" aria-label="Go home" title="Company" class="inline-flex items-center">
-            <svg class="w-8 text-deep-purple-accent-400" viewBox="0 0 24 24" stroke-linejoin="round" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" stroke="currentColor" fill="none">
-              <rect x="3" y="1" width="7" height="12"></rect>
-              <rect x="3" y="17" width="7" height="6"></rect>
-              <rect x="14" y="1" width="7" height="6"></rect>
-              <rect x="14" y="11" width="7" height="12"></rect>
-            </svg>
-            <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">Company</span>
+            <img src="../src/assets/logocart.png" alt="Logo" className="h-auto w-32" />
+            <span class=" text-2xl font-bold tracking-wide text-gray-800">JuanCart</span>
           </a>
           <div class="mt-6 lg:max-w-sm">
             <p class="text-sm text-gray-800">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
-            </p>
-            <p class="mt-4 text-sm text-gray-800">
-              Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+            JuanCart is a Philippines-based e-commerce platform founded with the vision of empowering sellers from the vibrant Taytay Tiangge. We recognize the unique appeal and competitiveness of Taytay's local market, and JuanCart aims to bridge the gap between these sellers and a wider online audience
             </p>
           </div>
         </div>
@@ -31,7 +23,7 @@ const Footer = () => {
           </div>
           <div class="flex">
             <p class="mr-1 text-gray-800">Email:</p>
-            <a href="mailto:info@lorem.mail" aria-label="Our email" title="Our email" class="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800">info@lorem.mail</a>
+            <a href="mailto:info@lorem.mail" aria-label="Our email" title="Our email" class="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800">juanCart@gmail.com</a>
           </div>
           <div class="flex">
             <p class="mr-1 text-gray-800">Address:</p>
@@ -67,7 +59,7 @@ const Footer = () => {
             </a>
           </div>
           <p class="mt-4 text-sm text-gray-500">
-            Bacon ipsum dolor amet short ribs pig sausage prosciutto chicken spare ribs salami.
+          Social media will be a key driver for JuanCart's success, allowing us to connect with our target audience, build brand loyalty, and empower the Taytay Tiangge community.
           </p>
         </div>
       </div>
