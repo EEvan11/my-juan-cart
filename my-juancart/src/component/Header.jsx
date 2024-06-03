@@ -1,6 +1,6 @@
 import React from 'react';
 import { Layout, Menu, theme } from 'antd';
-const { Header, Content, Footer } = Layout;  // Import Header correctly
+const { Header} = Layout;  
 
 const menuLabels = [
   'Home',
@@ -21,7 +21,7 @@ const AppHeader = () => {
 
   return (
     <Layout>
-      <Header  // Use Header instead of Nav
+      <Header 
         style={{
           display: 'flex',
           alignItems: 'center',
