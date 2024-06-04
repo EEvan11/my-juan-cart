@@ -16,11 +16,11 @@ const AppHeader = () => {
           key: "men",
           children:[
             {
-              label: "Clothing",
+              label: "Men's-Clothing",
               key:"clothe",
             },
             {
-              label:"Accessories",
+              label:"Men's-Accessories",
               key: "access",
               children:[
                 {
@@ -52,11 +52,11 @@ const AppHeader = () => {
           key: "women",
           children: [
             {
-              label: "Clothing",
+              label: "Women'sClothing",
               key: "clothing",
             },
             {
-              label: "Accessories",
+              label: "Women'sAccessories",
               key: "accessories",
               children:[
                 {
@@ -77,12 +77,21 @@ const AppHeader = () => {
                 },
               ]
             },
-            {
-              label: "Homeware",
-              key: "homeware",
-            }
           ]
-        }
+        },
+        {
+            label: "Homeware",
+            key: "homeware",
+            children:[
+              { label: "Cookware", key: "cookware" },
+              { label: "Utensils", key: "utensils" },
+              { label: "Bakeware", key: "bakeware" },
+              { label: "Cutlery", key: "cutlery" },
+              { label: "Tableware", key: "tableware" },
+              { label: "Drinkware", key: "drinkware" },
+              { label: "Storage Containers", key: "storage-containers" }
+            ]
+        },
       ]}>
 
       </Menu>
