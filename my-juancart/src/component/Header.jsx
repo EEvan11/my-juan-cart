@@ -1,41 +1,58 @@
-import React from 'react';
-import { Layout, Menu, theme } from 'antd';
-const { Header } = Layout;
-
-const menuLabels = [
-  'Home',
-  'About',
-  'Services',
-  'Contact'
-];
-
-const items = menuLabels.map((label, index) => ({
-  key: index + 1,
-  label: label,
-}));
+import {Menu} from 'antd';
 
 const AppHeader = () => {
-  const {
-    token: { colorBgContainer, borderRadiusLG },
-  } = theme.useToken();
+  return(
+    <>
+    <div className="header">
+      <Menu
+      mode='horizontal' 
+      items={[
+        {
+               label: "Home",
+               key: "home",
+        },
+        {
+          label: "Men",
+          key: "men",
+          children:[
+            {
+              label: "Clothing",
+              key:"clothe",
+            },
+            {
+              label:"Accessories",
+              key: "access",
+            },
+            {
+              label: "Homeware",
+              key: "homeware",
+            },
+        ],
+        }, 
+        {
+          label: "Women",
+          key: "women",
+          children: [
+            {
+              label: "Clothing",
+              key: "clothing",
+            },
+            {
+              label: "Accessories",
+              key: "accessories",
+            },
+            {
+              label: "Homeware",
+              key: "homeware",
+            }
+          ]
+        }
+      ]}>
 
-  return (
-    <Layout>
-      <Header className="bg-slate-700 flex items-center justify-between px-4 py-2">
-        <div className="flex items-center">
-          <img src="src/assets/logocart.png" alt="Logo" className="h-8 mr-4" />
-        </div>
-        <Menu
-          theme="white"
-          mode="horizontal"
-          defaultSelectedKeys={['1']}
-          items={items}
-          className="flex-1 bg-slate-700 text-white"
-          style={{ justifyContent: 'center' }}
-        />
-      </Header>
-    </Layout>
-  );
+      </Menu>
+    </div>
+    </>
+  )
 };
 
 export default AppHeader;
