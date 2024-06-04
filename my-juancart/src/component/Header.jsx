@@ -22,6 +22,24 @@ const AppHeader = () => {
             {
               label:"Accessories",
               key: "access",
+              children:[
+                {
+                  label: "Men-Necklaces",
+                  key: "men-necklaces",
+                },
+                {
+                  label: "Men-Earrings",
+                  key: "men-earrings",
+                },
+                {
+                  label: "Men-Bracelets",
+                  key: "men-bracelets",
+                },
+                {
+                  label: "Men-Watches",
+                  key: "men-watches",
+                },
+              ]
             },
             {
               label: "Homeware",
@@ -40,6 +58,24 @@ const AppHeader = () => {
             {
               label: "Accessories",
               key: "accessories",
+              children:[
+                {
+                  label: "Women-Necklaces",
+                  key: "women-necklaces",
+                },
+                {
+                  label: "Women-Earrings",
+                  key: "women-earrings",
+                },
+                {
+                  label: "Women-Bracelets",
+                  key: "women-bracelets",
+                },
+                {
+                  label: "Women-Watches",
+                  key: "women-watches",
+                },
+              ]
             },
             {
               label: "Homeware",
